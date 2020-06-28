@@ -13,6 +13,7 @@
 		2268D92C24A8CC73000961BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2268D92B24A8CC73000961BB /* Assets.xcassets */; };
 		2268D92F24A8CC73000961BB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2268D92E24A8CC73000961BB /* Preview Assets.xcassets */; };
 		2268D93224A8CC73000961BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2268D93024A8CC73000961BB /* LaunchScreen.storyboard */; };
+		2268D93D24A8CCAA000961BB /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2268D93C24A8CCAA000961BB /* Todo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2268D92E24A8CC73000961BB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2268D93124A8CC73000961BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2268D93324A8CC73000961BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2268D93C24A8CCAA000961BB /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		2268D92424A8CC72000961BB /* SwiftUI3 */ = {
 			isa = PBXGroup;
 			children = (
+				2268D93924A8CC89000961BB /* Model */,
 				2268D92524A8CC72000961BB /* AppDelegate.swift */,
 				2268D92724A8CC72000961BB /* SceneDelegate.swift */,
 				2268D92924A8CC72000961BB /* ContentView.swift */,
@@ -73,6 +76,14 @@
 				2268D92E24A8CC73000961BB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2268D93924A8CC89000961BB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2268D93C24A8CCAA000961BB /* Todo.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +160,7 @@
 				2268D92624A8CC72000961BB /* AppDelegate.swift in Sources */,
 				2268D92824A8CC72000961BB /* SceneDelegate.swift in Sources */,
 				2268D92A24A8CC72000961BB /* ContentView.swift in Sources */,
+				2268D93D24A8CCAA000961BB /* Todo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
